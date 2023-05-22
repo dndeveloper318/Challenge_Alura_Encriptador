@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body class="gridContainer">
+    <header>
+        <img src="img/logo.png" alt="logoAlura"  class="logo">
+    </header>
+    <main class="seccionUno">
+        <section class="cajaUno">
+            <div><textarea class="text-area" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea></div>
+            <div>
+                <h6 class="informacion"> Solo letras minusculas y sin acento</h6>
+            </div>
+            <div class="botones">
+                <buton class="btnEncriptar" onclick="botonEncriptar()">Encriptar</buton>
+                <buton class="btnDesencriptar" onclick="btnDesencriptar()">Desencriptar</buton>
+            </div>
+        </section>
+            
+    </main>
+    <aside class="seccionDos">
+        <section  >
+            <div> <textarea class="mensajes" cols="20" rows="10"></textarea></div>
+            <div><button class="btnCopiar" onclick="copiar()">Copiar</button></div>
+        </section>
+
+    </aside>
+    <footer >
+        <p class="pie">&copy Copyright Edgar Duvan Narvaez  (Alura - 2023) </p>
+    </footer>
+</body>
+<script src="js/script.js"></script>
+</html>
